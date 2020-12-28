@@ -1,3 +1,61 @@
+//L111
+
+// instructor solution
+// var firstName = prompt('Enter Name');
+// isolate 1st char
+// var firstChar = firstName.slice(0,1);
+// turn to uppercase
+// var firstCharUp = firstChar.toUpperCase();
+// isolate rest of name
+// var restOfName = firstName.slice(1,firstName.length)
+
+// convert to rest of name to lowercase
+// restOfName = restOfName.toLowerCase();
+// capitalize name
+// var capName = firstCharUp + restOfName;
+// concat and alert whole name
+// alert('hello ' + capName)
+
+// what is your name
+// var firstName = prompt('Enter Name');
+// whatever is returned by user we alert back with 1st letter capitalized
+// var firstLetter = firstName.slice(0, 1);
+// var firstLetterUp = firstLetter.toUpperCase();
+// alert(firstLetterUp);
+// add 1st letter to rest of str
+
+// var restOfName = firstName.slice(1, firstName.length);
+// restOfName = restOfName.toLowerCase();
+// alert('Welcome ' + firstLetterUp + restOfName);
+// L110 tweet
+
+// var tweet = prompt('enter tweet');
+
+// alert(tweet.slice(0, 140));
+// alert(prompt('enter tweet').slice(0, 140));
+
+// Ex3
+// var firstName = 'Angela';
+
+// want 1st character?
+
+// console.log(firstName.slice(0,1))
+// A
+
+// want 1st 4?
+// console.log(firstName.slice(0, 4));
+// Ange
+
+// want characters upto pos 3?
+// 3 -0 = 3 so you'll get 3 characters
+// console.log(firstName.slice(0,3));
+// Ang
+
+// want last char at pos 5?
+// 6-5 = 1 character
+// console.log(firstName.slice(5,6));
+// a
+
 // Ex2
 // instructors solution 2
 // var tweet = prompt('compose your tweet:');
