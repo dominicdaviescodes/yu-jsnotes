@@ -1,3 +1,10 @@
+// L113
+//  enter dog age
+// var dogAge = prompt('Enter dog age');
+// humanAge = ((dogAge -2) * 4) + 21; 
+// alert('Your dog is ' + humanAge + ' human years old')
+
+
 // practise ex4 29/12/2020AM
 // what is your name? store in a var
 // var firstName = prompt('enter name');
