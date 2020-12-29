@@ -1,3 +1,29 @@
+// Ex7
+
+// instructor solution
+
+function lifeInWeeks(age) {
+  var yearsRemaining = 90 - age;
+  var days = yearsRemaining * 365;
+  var weeks = yearsRemaining * 52;
+  var months = yearsRemaining * 12;
+
+console.log('You have ' + days + ', ' + weeks + ' weeks, and ' + months + ' months left');
+}
+lifeInWeeks(56);
+
+// function lifeInWeeks(age) {
+
+//   var days = (90 - age) * 365;
+//   var weeks = (90 - age) * 52;
+//   var months = (90 - age) * 12;
+//   console.log('You have ' + days + ', ' + weeks + ' weeks, and ' + months + ' months left');
+// }
+
+// lifeInWeeks(56);
+
+
+
 //L119
 // How many bottles of milk are you able to buy if you have £10?
 
@@ -9,13 +35,13 @@
 
 // getMilk(10);
 
-function getMilk(money) {
+// function getMilk(money) {
   // money / cost of a bottle of milk
-  var totalMilk = Math.floor(money / 1.5);
-  console.log(totalMilk);
-}
+//   var totalMilk = Math.floor(money / 1.5);
+//   console.log(totalMilk);
+// }
 
-getMilk(5);
+// getMilk(5);
 
 // round down js
 // Math.floor();
