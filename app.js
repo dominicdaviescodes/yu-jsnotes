@@ -1,9 +1,29 @@
+//L119
+// How many bottles of milk are you able to buy if you have £10?
+
+// function getMilk(money) {
+//   var milkCost = 1;
+//   var totalMilk = money / milkCost;
+//   console.log(totalMilk)
+// }
+
+// getMilk(10);
+
+function getMilk(money) {
+  // money / cost of a bottle of milk
+  var totalMilk = Math.floor(money / 1.5);
+  console.log(totalMilk);
+}
+
+getMilk(5);
+
+// round down js
+// Math.floor();
 // L113
 //  enter dog age
 // var dogAge = prompt('Enter dog age');
-// humanAge = ((dogAge -2) * 4) + 21; 
+// humanAge = ((dogAge -2) * 4) + 21;
 // alert('Your dog is ' + humanAge + ' human years old')
-
 
 // practise ex4 29/12/2020AM
 // what is your name? store in a var
