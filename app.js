@@ -1,3 +1,39 @@
+// practise ex4 29/12/2020AM
+// what is your name? store in a var
+// var firstName = prompt('enter name');
+// capitalize 1st letter
+// var firstChar = firstName.slice(0,1).toUpperCase();
+// console.log(firstChar)
+// get restOfName
+// var restOfName = firstName.slice(1, firstName.length);
+// fullName = firstChar + restOfName.toLowerCase();
+// put name together
+
+// greet user with capitalized version of their name regardless of how they typed it
+
+// alert('Welcome ' + fullName)
+
+// practise ex3 29/12/2020AM
+
+// var tweet = prompt('enter tweet');
+// alert(tweet.slice(0, 140));
+
+// practise ex2 29/12/2020AM
+
+// var tweet = prompt('enter tweet');
+// var tweetMax = tweet.length;
+// var tweetLeft = 140 - tweetMax;
+// alert(
+//   'you have written ' +
+//     tweet.length +
+//     ' characters, you have ' +
+//     (140 -
+//     tweet.length) +
+//     ' characters left'
+// );
+
+//You have written 6 characters, you have 134 characters left.
+
 //L111
 
 // instructor solution
